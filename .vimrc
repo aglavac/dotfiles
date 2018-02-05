@@ -65,7 +65,17 @@ set softtabstop=2
 
 set showmode
 set showcmd
+
 " This setting is for statusline
 set laststatus=2
 set noshowmode
-let g:lightline = { 'colorscheme': 'seoul256' }
+let g:lightline = {
+      \ 'colorscheme': 'seoul256',
+      \ 'active': {
+      \   'left': [ [ 'mode', 'paste' ],
+      \             [ 'gitbranch', 'readonly', 'filename', 'modified' ] ]
+      \ },
+      \ 'component_function': {
+      \   'gitbranch': 'fugitive#head'
+      \ },
+      \ }
