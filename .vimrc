@@ -11,6 +11,7 @@ Plugin 'scrooloose/nerdtree'
 Plugin 'leshill/vim-json'
 Plugin 'tpope/vim-markdown'
 Plugin 'itchyny/lightline.vim'
+Plugin 'morhetz/gruvbox'
 
 call vundle#end()            
 filetype plugin indent on 
@@ -39,6 +40,9 @@ vno <down> <Nop>
 " Set color theme
 set background=dark
 colo gruvbox
+" Test this settings
+" let g:gruvbox_contrast_dark = 'hard'
+" let g:gruvbox_termcolors = '16'
 
 " Custom maping
 map <C-n> :NERDTreeToggle<CR>
