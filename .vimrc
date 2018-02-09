@@ -34,6 +34,10 @@ vno <left> <Nop>
 vno <right> <Nop>
 vno <down> <Nop>
 
+" Map down to move line down and up  to move line up in Normal mode
+" no <up> ddwP
+" no <down> ddp
+
 " Insert --> Normal
 " FOR NOW JUST CTRL [
 
