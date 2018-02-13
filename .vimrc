@@ -39,7 +39,7 @@ vno <down> <Nop>
 " no <down> ddp
 
 " Insert --> Normal
-" FOR NOW JUST CTRL [
+" FOR NOW JUST CTRL [ or ESC
 
 " Set color theme
 set background=dark
@@ -62,13 +62,12 @@ set autoindent
 set smartindent
 set visualbell
 set autoread
+set incsearch
+set showcmd
 
 set tabstop=2
 set shiftwidth=2
 set softtabstop=2
-
-set showmode
-set showcmd
 
 " This setting is for statusline
 set laststatus=2
