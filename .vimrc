@@ -64,6 +64,7 @@ set visualbell
 set autoread
 set incsearch
 set showcmd
+set linebreak
 
 set tabstop=2
 set shiftwidth=2
