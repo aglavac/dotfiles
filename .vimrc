@@ -44,12 +44,12 @@ vno <down> <Nop>
 " Set color theme
 set background=dark
 colorscheme gruvbox
-" Test this settings
-" let g:gruvbox_contrast_dark = 'hard'
-" let g:gruvbox_termcolors = '16'
 
 " Custom maping
 map <C-n> :NERDTreeToggle<CR>
+let NERDTreeQuitOnOpen=1
+let g:NERDTreeWinPos="right"
+
 nnoremap j gj
 nnoremap k gk
 
@@ -66,6 +66,7 @@ set incsearch
 set showcmd
 set linebreak
 syntax on
+set numberwidth=5
 
 set tabstop=2
 set shiftwidth=2
