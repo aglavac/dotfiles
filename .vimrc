@@ -68,6 +68,9 @@ set linebreak
 syntax on
 set numberwidth=5
 
+set cursorline
+set cursorcolumn
+
 set tabstop=2
 set shiftwidth=2
 set softtabstop=2
