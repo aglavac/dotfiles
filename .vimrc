@@ -67,6 +67,7 @@ set showcmd
 set linebreak
 syntax on
 set numberwidth=5
+set so=3
 
 set cursorline
 set cursorcolumn
