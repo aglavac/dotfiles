@@ -12,6 +12,7 @@ Plugin 'leshill/vim-json'
 Plugin 'tpope/vim-markdown'
 Plugin 'itchyny/lightline.vim'
 Plugin 'morhetz/gruvbox'
+Plugin 'airblade/vim-gitgutter'
 
 call vundle#end()            
 filetype plugin indent on 
@@ -68,6 +69,7 @@ set linebreak
 syntax on
 set numberwidth=5
 set so=3
+set updatetime=100
 
 set cursorline
 set cursorcolumn
