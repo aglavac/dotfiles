@@ -13,6 +13,7 @@ Plugin 'tpope/vim-markdown'
 Plugin 'itchyny/lightline.vim'
 Plugin 'morhetz/gruvbox'
 Plugin 'airblade/vim-gitgutter'
+Plugin 'vim-scripts/AutoClose'
 
 call vundle#end()            
 filetype plugin indent on 
