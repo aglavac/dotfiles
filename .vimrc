@@ -13,7 +13,6 @@ Plugin 'tpope/vim-markdown'
 Plugin 'itchyny/lightline.vim'
 Plugin 'morhetz/gruvbox'
 Plugin 'airblade/vim-gitgutter'
-Plugin 'vim-scripts/AutoClose'
 
 call vundle#end()            
 filetype plugin indent on 
@@ -43,6 +42,10 @@ vno <down> <Nop>
 " Insert --> Normal
 " FOR NOW JUST CTRL [ or ESC
 
+" Syntax
+syntax on
+
+
 " Set color theme
 set background=dark
 colorscheme gruvbox
@@ -67,11 +70,11 @@ set autoread
 set incsearch
 set showcmd
 set linebreak
-syntax on
 set numberwidth=5
 set so=3
 set updatetime=100
 
+set noeol
 set cursorline
 set cursorcolumn
 
