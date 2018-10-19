@@ -3,3 +3,4 @@
 ## List of dotfiles that are in this repo
 
 * vimrc
+* i3
