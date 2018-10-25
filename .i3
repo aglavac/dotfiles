@@ -12,8 +12,8 @@
 set $mod Mod4
 
 # Set keyboard layouts
-#exec "setxkbmap -layout us,si"
-#exec "setxkbmap -option 'grp:alt_shift_toggle'"
+bindsym $mod+i exec setxkbmap si
+bindsym $mod+u exec setxkbmap us
 
 # Font for window titles. Will also be used by the bar unless a different font
 # is used in the bar {} block below.
